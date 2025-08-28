@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Que Quieres Hacer Hoy - Taller 1</title>
+</head>
+<body>
+
+  <!-- ===== HEADER: título principal y descripción breve ===== -->
+  <!-- id="top" sirve para los enlaces "Volver arriba" -->
+  <header id="top">
+    <h1 style="text-align:center;">Bienvenido</h1>
+    <h1 style="text-align:center;">¿Qué quieres hacer hoy?</h1>
+    <h2 style="text-align:center;">En Popayán…</h2>
+
+    <!-- Justificado con CSS inline (sigue siendo un único archivo HTML) -->
+    <p style="text-align:justify;">
+      Es tu portal de experiencias y oportunidades. Aquí encontrarás actividades para cada momento en tu ciudad:
+      desde comprar lo que necesitas, vender lo que ya no usas, reservar un plan, descubrir lugares cercanos,
+      aprender algo nuevo o simplemente dejarte sorprender. No importa si estás aburrido, lleno de energía,
+      con ganas de socializar o prefieres disfrutar en casa: siempre habrá una opción pensada para ti.
+      Explora, conecta y vive nuevas experiencias con un solo clic.
+    </p>
+  </header>
+
+  <!-- ===== NAV: menú de navegación (enlaces internos) ===== -->
+  <nav aria-label="Categorías principales">
+    <h2>Categorías principales</h2>
+    <!-- Lista ORDENADA como pide el taller -->
+    <!-- OJO: los href usan ids sin espacios ni acentos -->
+    <ol>
+      <li><a href="#comprar">Comprar</a></li>
+      <li><a href="#vender">Vender</a></li>
+      <li><a href="#reservar">Reservar</a></li>
+      <li><a href="#sitios-interes">Sitios de interés</a></li>
+      <li><a href="#renovar-cambiar">Renovar / Cambiar</a></li>
+      <li><a href="#entretenimiento">Entretenimiento / Diversión</a></li>
+      <li><a href="#aprender">Aprender algo nuevo</a></li>
+      <li><a href="#salud-bienestar">Salud y Bienestar</a></li>
+      <li><a href="#social">Conocer personas / Social</a></li>
+      <li><a href="#hogar-familia">Hogar y Familia</a></li>
+      <li><a href="#trabajo-productividad">Trabajo y Productividad</a></li>
+      <li><a href="#random">Random / Sorpréndeme</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ol>
+  </nav>
+
+  <hr />
+
+  <!-- ===== SECCIONES: cada una con ARTICLE + imagen + lista UL ===== -->
+
+  <section id="comprar">
+    <h2>Comprar</h2>
+    <article>
+      <p>Encuentra productos y experiencias en un solo lugar: ropa, tecnología, hogar, alimentos y más.</p>
+      <!-- Imagen centrada y redimensionada -->
+      <div style="text-align:center;">
+        <img src="https://img.freepik.com/vector-premium/conjunto-ropa-accesorios-elegantes-mujeres_250538-392.jpg"
+             alt="Comprar" width="320" />
+      </div>
+      <ul>
+        <li>Ropa y accesorios</li>
+        <li>Tecnología</li>
+        <li>Hogar y decoración</li>
+        <li>Alimentos y bebidas</li>
+        <li>Experiencias</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <section id="vender">
+    <h2>Vender</h2>
+    <article>
+      <p>Publica tus productos o servicios y llega a más personas. Ideal para nuevos o segunda mano.</p>
+      <div style="text-align:center;">
+        <img src="https://www.sistemaimpulsa.com/blog/wp-content/uploads/2019/03/Nexo-Comercial-Tips-para-Vender-Mas-1068x561.jpg"
+             alt="Vender" width="320" />
+      </div>
+      <ul>
+        <li>Publicar productos</li>
+        <li>Segunda mano</li>
+        <li>Servicios profesionales</li>
+        <li>Arte / creatividad</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <section id="reservar">
+    <h2>Reservar</h2>
+    <article>
+      <p>Planifica con anticipación: restaurantes, hoteles, transporte, eventos y citas.</p>
+      <div style="text-align:center;">
+        <img src="https://www.smarttravel.news/wp-content/uploads/2023/06/sitio-web-reserva-alojamiento-hotel-linea-proporciona-sistema-reserva-moderno-1-scaled.jpg"
+             alt="Reservar" width="320" />
+      </div>
+      <ul>
+        <li>Restaurantes</li>
+        <li>Hoteles</li>
+        <li>Transporte</li>
+        <li>Eventos</li>
+        <li>Citas médicas / profesionales</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <section id="sitios-interes">
+    <h2>Sitios de interés</h2>
+    <article>
+      <p>Explora lugares cercanos: naturaleza, cultura, parques y vida nocturna.</p>
+      <div style="text-align:center;">
+        <img src="https://www.uff.travel/region/58/parque-caldas-fuente-wikimedia-org-por-car710-300x250.jpg"
+             alt="Sitios de interés" width="320" />
+      </div>
+      <ul>
+        <li>Turismo / naturaleza</li>
+        <li>Cultura / museos</li>
+        <li>Parques y zonas verdes</li>
+        <li>Vida nocturna</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <section id="renovar-cambiar">
+    <h2>Renovar / Cambiar</h2>
+    <article>
+      <p>Intercambia, recicla o mejora: actualiza tecnología y renueva espacios del hogar.</p>
+      <div style="text-align:center;">
+        <img src="https://as1.ftcdn.net/jpg/02/10/52/12/1000_F_210521269_wQbuMQbqUvRyMPNqGcKoWF6F0qFM2VXo.webp"
+             alt="Renovar y cambiar" width="320" />
+      </div>
+      <ul>
+        <li>Reciclaje / trueques</li>
+        <li>Intercambio de objetos</li>
+        <li>Actualización tecnológica</li>
+        <li>Mejoras del hogar</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <section id="entretenimiento">
+    <h2>Entretenimiento / Diversión</h2>
+    <article>
+      <!-- Cumplimos el requisito de <video> del taller -->
+      <div style="text-align:center;">
+        <video width="480" height="270" controls>
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+          Tu navegador no soporta el video.
+        </video>
+      </div>
+      <p>Relájate o diviértete: cine, música, videojuegos y actividades locales.</p>
+      <ul>
+        <li>Películas / series</li>
+        <li>Conciertos / música</li>
+        <li>Juegos</li>
+        <li>Actividades locales</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <section id="aprender">
+    <h2>Aprender algo nuevo</h2>
+    <article>
+      <p>Cursos breves, tutoriales, talleres y contenidos para escuchar o leer.</p>
+      <div style="text-align:center;">
+        <img src="https://www.periodicovictoria.cu/wp-content/uploads/2024/04/Aprender.jpg"
+             alt="Aprender" width="320" />
+      </div>
+      <ul>
+        <li>Cursos online</li>
+        <li>Tutoriales</li>
+        <li>Talleres en vivo</li>
+        <li>Podcasts / lecturas</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <section id="salud-bienestar">
+    <h2>Salud y Bienestar</h2>
+    <article>
+      <p>Rutinas simples, meditación, recetas saludables y retos para motivarte.</p>
+      <div style="text-align:center;">
+        <img src="https://thefoodtech.com/wp-content/uploads/2020/11/salud-y-bienestar.jpg"
+             alt="Salud y Bienestar" width="320" />
+      </div>
+      <ul>
+        <li>Ejercicio</li>
+        <li>Meditación</li>
+        <li>Recetas saludables</li>
+        <li>Retos fitness</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <section id="social">
+    <h2>Conocer personas / Social</h2>
+    <article>
+      <p>Conecta con otros: grupos de interés, actividades comunitarias, amistad y voluntariado.</p>
+      <div style="text-align:center;">
+        <img src="https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2022/08/amigos-amistad-2798475.jpg"
+             alt="Social" width="320" />
+      </div>
+      <ul>
+        <li>Grupos de interés</li>
+        <li>Actividades comunitarias</li>
+        <li>Citas / amistad</li>
+        <li>Voluntariado</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <section id="hogar-familia">
+    <h2>Hogar y Familia</h2>
+    <article>
+      <p>Disfruta en casa: planes familiares, bricolaje, manualidades y cocina en familia.</p>
+      <div style="text-align:center;">
+        <img src="https://previews.123rf.com/images/davizro/davizro1702/davizro170200005/72810758-home-and-family-concept-with-paper-house-and-family-with-nature-background-horizontal-composition.jpg"
+             alt="Hogar y Familia" width="320" />
+      </div>
+      <ul>
+        <li>Actividades en casa</li>
+        <li>Planes familiares</li>
+        <li>Bricolaje / manualidades</li>
+        <li>Cocina en familia</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <section id="trabajo-productividad">
+    <h2>Trabajo y Productividad</h2>
+    <article>
+      <p>Mejora tus resultados con herramientas, formación y conexiones profesionales.</p>
+      <div style="text-align:center;">
+        <img src="https://img.saludsavia.com/wp-content/uploads/2023/04/productividad-laboral-que-es-y-como-afecta.jpg"
+             alt="Trabajo y Productividad" width="320" />
+      </div>
+      <ul>
+        <li>Freelance / empleos</li>
+        <li>Herramientas digitales</li>
+        <li>Cursos de productividad</li>
+        <li>Networking</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <section id="random">
+    <h2>Random / Sorpréndeme</h2>
+    <article>
+      <p>¿Indeciso? Prueba una sugerencia al azar o descubre algo inesperado.</p>
+      <div style="text-align:center;">
+        <img src="https://i5.walmartimages.com/asr/a0280f93-34d1-435e-9c3a-cbc2d004da5d.1f9478f8daba20ec59f18c2b6cd537bc.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+             alt="Random" width="320" />
+      </div>
+      <ul>
+        <li>Opción aleatoria del día</li>
+      </ul>
+    </article>
+    <p><a href="#top">↑ Volver arriba</a></p>
+  </section>
+
+  <hr />
+
+  <!-- ===== FOOTER / CONTACTO ===== -->
+  <footer id="contacto">
+    <h2 style="text-align:center;">Contacto</h2>
+    <p style="text-align:center;">Correo: quequiereshacerhoy@correo.com</p>
+    <p style="text-align:center;">Proyecto académico - Taller N°1</p>
+    <p style="text-align:center;"><a href="#top">↑ Volver arriba</a></p>
+  </footer>
+
+</body>
+</html>
+
