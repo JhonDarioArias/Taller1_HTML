@@ -1,0 +1,120 @@
+/* === ESTILOS GENERALES === */
+body {
+  font-family: Arial, sans-serif;   /* Fuente */
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;        /* Fondo gris claro */
+  color: #333;                      /* Color de texto */
+}
+
+/* === CABECERA === */
+header {
+  background-color: #4CAF50;        /* Fondo verde */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* === MENÚ DE NAVEGACIÓN === */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;                    /* Flexbox para menú horizontal */
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #FFD700;                   /* Cambia a dorado al pasar el mouse */
+}
+
+/* === SECCIONES === */
+section {
+  padding: 30px;
+  background: white;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 8px;               /* Bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra ligera */
+}
+
+section h2 {
+  color: #4CAF50;
+}
+
+/* === IMÁGENES === */
+section img {
+  display: block;
+  margin: 15px auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* === PIE DE PÁGINA === */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
+/* Contenedor centrado */
+.selector-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;          /* Centra horizontalmente */
+  justify-content: center;      /* Centra verticalmente si se combina con height */
+  margin: 60px auto;
+  text-align: center;
+}
+
+/* Texto del label */
+.selector-principal label {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Caja de selección */
+.selector-principal select {
+  font-size: 1.2em;             /* Texto más grande */
+  padding: 12px 20px;           /* Más espacio interior */
+  border-radius: 10px;          /* Bordes redondeados */
+  border: 2px solid #4CAF50;    /* Borde verde */
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra elegante */
+  transition: all 0.3s ease;    /* Animación suave */
+}
+
+/* Efecto al pasar el mouse */
+.selector-principal select:hover {
+  border-color: #388E3C;        /* Verde más oscuro */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Opciones del menú */
+.selector-principal option {
+  font-size: 1em;
+  padding: 10px;
+}
