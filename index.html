@@ -3,10 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css">
+
   <title>Que Quieres Hacer Hoy - Taller 1</title>
 </head>
 <body>
-
+  <p style="text-align:justify;">
+      Es tu portal de experiencias y oportunidades. Aquí encontrarás actividades para cada momento en tu ciudad:
+      desde comprar lo que necesitas, vender lo que ya no usas, reservar un plan, descubrir lugares cercanos,
+      aprender algo nuevo o simplemente dejarte sorprender. No importa si estás aburrido, lleno de energía,
+      con ganas de socializar o prefieres disfrutar en casa: siempre habrá una opción pensada para ti.
+      Explora, conecta y vive nuevas experiencias con un solo clic.
+    </p>
   <!-- ===== HEADER: título principal y descripción breve ===== -->
   <!-- id="top" sirve para los enlaces "Volver arriba" -->
   <header id="top">
@@ -15,20 +23,36 @@
     <h2 style="text-align:center;">En Popayán…</h2>
 
     <!-- Justificado con CSS inline (sigue siendo un único archivo HTML) -->
-    <p style="text-align:justify;">
-      Es tu portal de experiencias y oportunidades. Aquí encontrarás actividades para cada momento en tu ciudad:
-      desde comprar lo que necesitas, vender lo que ya no usas, reservar un plan, descubrir lugares cercanos,
-      aprender algo nuevo o simplemente dejarte sorprender. No importa si estás aburrido, lleno de energía,
-      con ganas de socializar o prefieres disfrutar en casa: siempre habrá una opción pensada para ti.
-      Explora, conecta y vive nuevas experiencias con un solo clic.
-    </p>
-  </header>
-
-  <!-- ===== NAV: menú de navegación (enlaces internos) ===== -->
   <nav aria-label="Categorías principales">
+
     <h2>Categorías principales</h2>
     <!-- Lista ORDENADA como pide el taller -->
     <!-- OJO: los href usan ids sin espacios ni acentos -->
+<div class="selector-principal">
+  <label for="menu">Elige qué quieres hacer hoy:</label><br>
+  <select id="menu" onchange="location.href=this.value;">
+    <option value="#comprar">Comprar</option>
+    <option value="#vender">Vender</option>
+    <option value="#reservar">Reservar</option>
+    <option value="#sitios">Sitios de interés</option>
+    <option value="#renovar">Renovar / Cambiar</option>
+    <option value="#entretenimiento">Entretenimiento / Diversión</option>
+    <option value="#aprender">Aprender algo nuevo</option>
+    <option value="#salud">Salud y Bienestar</option>
+    <option value="#social">Conocer personas / Social</option>
+    <option value="#hogar">Hogar y Familia</option>
+    <option value="#trabajo">Trabajo y Productividad</option>
+    <option value="#random">Random / Sorpréndeme</option>
+    <option value="#contacto">Contacto</option>
+  </select>
+</div>
+  </nav>
+  </header>
+    
+  <!-- ===== NAV: menú de navegación (enlaces internos) ===== -->
+  
+<nav aria-label="Categorías principales">
+
     <ol>
       <li><a href="#comprar">Comprar</a></li>
       <li><a href="#vender">Vender</a></li>
@@ -44,6 +68,10 @@
       <li><a href="#random">Random / Sorpréndeme</a></li>
       <li><a href="#contacto">Contacto</a></li>
     </ol>
+   
+
+
+
   </nav>
 
   <hr />
