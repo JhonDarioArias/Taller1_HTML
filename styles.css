@@ -118,3 +118,8 @@ footer {
   font-size: 1em;
   padding: 10px;
 }
+.hero{
+  background-image:url("https://media.istockphoto.com/id/2230661503/photo/aerial-view-of-popayan-colombia.jpg?s=1024x1024&w=is&k=20&c=RfikkPB03HnlQgAGhNuRmw1dDYw_kB5yfK5sZ6JU0-I="); /* reemplaza si quieres */
+  background-size:cover; background-position:center;
+  color:var(--white); position:relative;
+}
